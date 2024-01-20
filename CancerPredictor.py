@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 
-dataset = pd.read_csv("cancer.csv")
-
+dataset = pd.read_csv("./cancer case/cancer.csv")
+# C:\Users\Dan Nguyen\Desktop\AI Projects\cancer case\cancer.csv
 # set X
 x = dataset.drop(columns =['diagnosis(1=m, 0=b)'])
 
